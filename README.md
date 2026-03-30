@@ -14,7 +14,7 @@
 ##  Overview
 
 This project implements an end-to-end object detection pipeline for traffic scenes using **YOLOv8s** (You Only Look Once, version 8 — small variant). Starting from a pre-trained backbone, the model was fine-tuned on a labeled vehicle dataset and deployed as an interactive Gradio web application.
-
+![Vehicle Detection Demo](cap1.png)
 The full pipeline covers:
 - Dataset acquisition and train/validation splitting
 - Transfer learning with YOLOv8s on a T4 GPU
